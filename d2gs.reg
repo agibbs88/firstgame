@@ -16,7 +16,7 @@ REGEDIT4
 "AdminPort"=dword:000022b8
 "AdminTimeout"=dword:00000e10
 "D2CSSecrect"="MKP ROCKS"
-"EnableNTMode"=dword:00000001
+"EnableNTMode"=dword:00000000
 "EnablePreCacheMode"=dword:00000001
 "IdleSleep"=dword:00000001
 "BusySleep"=dword:00000001
