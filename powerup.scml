@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r3">
+    <folder id="0">
+        <file id="0" name="arrow p1.png" width="127" height="132" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="arrow p2.png" width="127" height="132" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="arrow p3.png" width="127" height="132" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="arrow p4.png" width="127" height="132" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="PU body.png" width="290" height="288" pivot_x="0.42069" pivot_y="0.729167"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_arrow p1" realname="arrow p1" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+                <i folder="0" file="1"/>
+                <i folder="0" file="2"/>
+                <i folder="0" file="3"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_PU body" realname="PU body" type="sprite">
+            <frames>
+                <i folder="0" file="4"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="NewAnimation" length="1500" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="PU body" folder="0" file="4" abs_x="-127.0001" abs_y="76" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" name="arrow p1" folder="0" file="0" abs_x="-63.5" abs_y="64" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="375">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="751">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="1138">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="1494">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="4" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="arrow p1">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" y="-2"/>
+                </key>
+                <key id="1" time="375" spin="0">
+                    <object folder="0" file="1" y="-2"/>
+                </key>
+                <key id="2" time="751" spin="0">
+                    <object folder="0" file="2" y="-2"/>
+                </key>
+                <key id="3" time="1138" spin="0">
+                    <object folder="0" file="3" y="-2"/>
+                </key>
+                <key id="4" time="1494" spin="0">
+                    <object folder="0" file="0" y="-2"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="PU body">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-5" y="-2"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

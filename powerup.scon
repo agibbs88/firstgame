@@ -1,0 +1,299 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 1500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.42069,
+										"abs_pivot_y": 0.7291666666666667,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -5,
+										"abs_y": 2,
+										"file": 4,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "PU body",
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 2,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "arrow p1",
+										"timeline": "0",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "1"
+									}
+								],
+								"time": 375
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "1"
+									}
+								],
+								"time": 751
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "1"
+									}
+								],
+								"time": 1138
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "1"
+									}
+								],
+								"time": 1494
+							}
+						]
+					},
+					"name": "NewAnimation",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 0,
+										"y": -2
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"file": 1,
+										"folder": 0,
+										"y": -2
+									},
+									"spin": 0,
+									"time": 375
+								},
+								{
+									"id": 2,
+									"object": {
+										"file": 2,
+										"folder": 0,
+										"y": -2
+									},
+									"spin": 0,
+									"time": 751
+								},
+								{
+									"id": 3,
+									"object": {
+										"file": 3,
+										"folder": 0,
+										"y": -2
+									},
+									"spin": 0,
+									"time": 1138
+								},
+								{
+									"id": 4,
+									"object": {
+										"file": 0,
+										"folder": 0,
+										"y": -2
+									},
+									"spin": 0,
+									"time": 1494
+								}
+							],
+							"name": "arrow p1",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 4,
+										"folder": 0,
+										"x": -5,
+										"y": -2
+									},
+									"spin": 0
+								}
+							],
+							"name": "PU body",
+							"obj": 1
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						},
+						{
+							"file": 1,
+							"folder": 0
+						},
+						{
+							"file": 2,
+							"folder": 0
+						},
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_arrow p1",
+					"realname": "arrow p1",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 4,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_PU body",
+					"realname": "PU body",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 132,
+					"id": 0,
+					"name": "arrow p1.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 127
+				},
+				{
+					"height": 132,
+					"id": 1,
+					"name": "arrow p2.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 127
+				},
+				{
+					"height": 132,
+					"id": 2,
+					"name": "arrow p3.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 127
+				},
+				{
+					"height": 132,
+					"id": 3,
+					"name": "arrow p4.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 127
+				},
+				{
+					"height": 288,
+					"id": 4,
+					"name": "PU body.png",
+					"pivot_x": 0.42069,
+					"pivot_y": 0.7291666666666667,
+					"width": 290
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r3",
+	"scon_version": "1.0"
+}

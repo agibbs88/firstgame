@@ -1,0 +1,312 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 2000,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 359.961059,
+										"abs_pivot_x": 0.517544,
+										"abs_pivot_y": 0.517544,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 3.858618,
+										"abs_y": -5.151547,
+										"file": 1,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "outer",
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.511628,
+										"abs_pivot_y": 0.539062,
+										"abs_scale_x": 0.765307,
+										"abs_scale_y": 0.729896,
+										"abs_x": -1.122232,
+										"abs_y": -0.005493,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "center",
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 502
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 998
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 1498
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 2000
+							}
+						]
+					},
+					"name": "NewAnimation",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 359.961059,
+										"file": 1,
+										"folder": 0,
+										"x": 3.858618,
+										"y": 5.151547
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 271.386296,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.517544,
+										"pivot_y": 0.517544,
+										"x": 2.224106019400021,
+										"y": -0.7829395520740811
+									},
+									"spin": -1,
+									"time": 502
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 271.386296,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.500624,
+										"pivot_y": 0.508193,
+										"x": -0.000629,
+										"y": 3.022111
+									},
+									"spin": -1,
+									"time": 502
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 181.477462,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.500624,
+										"pivot_y": 0.508193,
+										"x": -0.000629,
+										"y": 3.022111
+									},
+									"spin": -1,
+									"time": 998
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 88.567703,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.500624,
+										"pivot_y": 0.508193,
+										"x": -0.000629,
+										"y": 3.022111
+									},
+									"spin": -1,
+									"time": 1498
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 357.921665,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.500624,
+										"pivot_y": 0.508193,
+										"x": -0.000629,
+										"y": 3.022111
+									},
+									"time": 2000
+								}
+							],
+							"name": "outer",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"scale_x": 0.765307,
+										"scale_y": 0.729896,
+										"x": -1.122232,
+										"y": 0.005493
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"scale_x": 0.765307,
+										"scale_y": 0.729896,
+										"x": -1.122232,
+										"y": 0.005493
+									},
+									"spin": 0,
+									"time": 502
+								}
+							],
+							"name": "center",
+							"obj": 1
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_outer",
+					"realname": "outer",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_center",
+					"realname": "center",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 128,
+					"id": 0,
+					"name": "center.png",
+					"pivot_x": 0.511628,
+					"pivot_y": 0.539062,
+					"width": 129
+				},
+				{
+					"height": 228,
+					"id": 1,
+					"name": "outer.png",
+					"pivot_x": 0.517544,
+					"pivot_y": 0.517544,
+					"width": 228
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r3",
+	"scon_version": "1.0"
+}

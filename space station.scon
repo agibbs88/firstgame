@@ -1,0 +1,476 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 2000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.50566,
+										"abs_pivot_y": 0.551724,
+										"abs_scale_x": 1.216729873209222,
+										"abs_scale_y": 1.2167298732092215,
+										"abs_x": 1.9998999999999967,
+										"abs_y": 1.0000359999999944,
+										"file": 0,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "space station",
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 2.000000000000001,
+										"abs_y": 0.5000000000000036,
+										"file": 1,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "3",
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 2.499999999999993,
+										"abs_y": -0.5,
+										"file": 2,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "2 final",
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 1,
+										"abs_y": -3,
+										"file": 3,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "1 final",
+										"timeline": "3",
+										"z_index": "3"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 501
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 1000
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 3,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 1521
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 4,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 4,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 1973
+							}
+						]
+					},
+					"name": "NewAnimation",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 0,
+										"scale_x": 1.216729873209222,
+										"scale_y": 1.2167298732092215,
+										"x": 1.9998999999999967,
+										"y": -1.0000359999999944
+									},
+									"spin": 0
+								}
+							],
+							"name": "space station",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 1,
+										"folder": 0,
+										"x": 2.000000000000001,
+										"y": -0.5000000000000036
+									},
+									"spin": 0
+								}
+							],
+							"name": "3",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 2,
+										"folder": 0,
+										"x": 2.499999999999993,
+										"y": 0.5
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 90.50702906091476,
+										"file": 2,
+										"folder": 0,
+										"x": 2.499999999999993,
+										"y": 0.5
+									},
+									"time": 501
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 180.36493633573065,
+										"file": 2,
+										"folder": 0,
+										"scale_x": 1.0000000000000002,
+										"scale_y": 1.0000000000000002,
+										"x": 2.499999999999993,
+										"y": 0.5
+									},
+									"time": 1000
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 269.47436539354237,
+										"file": 2,
+										"folder": 0,
+										"scale_y": 0.9999999999999999,
+										"x": 2.499999999999993,
+										"y": 0.5
+									},
+									"time": 1521
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 359.46454101443544,
+										"file": 2,
+										"folder": 0,
+										"x": 2.499999999999993,
+										"y": 0.5
+									},
+									"time": 1973
+								}
+							],
+							"name": "2 final",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 3,
+										"folder": 0,
+										"x": 1,
+										"y": 3
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 270,
+										"file": 3,
+										"folder": 0,
+										"x": 1,
+										"y": 3
+									},
+									"spin": -1,
+									"time": 501
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 180.9548412538722,
+										"file": 3,
+										"folder": 0,
+										"scale_x": 1.0000000000000002,
+										"scale_y": 1.0000000000000002,
+										"x": 1,
+										"y": 3
+									},
+									"spin": -1,
+									"time": 1000
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 92.00955381302117,
+										"file": 3,
+										"folder": 0,
+										"x": 1,
+										"y": 3
+									},
+									"spin": -1,
+									"time": 1521
+								},
+								{
+									"id": 4,
+									"object": {
+										"file": 3,
+										"folder": 0,
+										"scale_x": 1.0000000000000002,
+										"x": 1,
+										"y": 3
+									},
+									"spin": 0,
+									"time": 1973
+								}
+							],
+							"name": "1 final",
+							"obj": 3
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_space station",
+					"realname": "space station",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_3",
+					"realname": "3",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_2 final",
+					"realname": "2 final",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_1 final",
+					"realname": "1 final",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 261,
+					"id": 0,
+					"name": "space station.png",
+					"pivot_x": 0.50566,
+					"pivot_y": 0.551724,
+					"width": 265
+				},
+				{
+					"height": 39,
+					"id": 1,
+					"name": "3.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 38
+				},
+				{
+					"height": 63,
+					"id": 2,
+					"name": "2 final.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 67
+				},
+				{
+					"height": 63,
+					"id": 3,
+					"name": "1 final.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 67
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r3",
+	"scon_version": "1.0"
+}
